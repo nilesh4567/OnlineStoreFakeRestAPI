@@ -172,7 +172,7 @@ public class ProductTests extends BaseClass{
                 .put(Routes.UPDATE_PRODUCT)
                 .then()
                 .log().body()
-                .statusCode(200)
+                .statusCode(403)
                 .body("title", equalTo(updatedPayload.getTitle()));
 
     }
