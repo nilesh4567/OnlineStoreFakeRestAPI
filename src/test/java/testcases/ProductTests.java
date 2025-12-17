@@ -28,7 +28,7 @@ public class ProductTests extends BaseClass{
                 .when()
                 .get(Routes.GET_ALL_PRODUCTS)
                 .then()
-                .statusCode(200)
+                .statusCode(204)
                 .body("size()",greaterThan(0));
 
     }
