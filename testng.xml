@@ -1,4 +1,4 @@
-<suite name="API TestSuite" parallel="false">
+<suite name="API TestSuite" parallel="true">
     <listeners>
         <listener class-name="utils.ExtentReporter"/>
     </listeners>

@@ -16,7 +16,7 @@ import java.io.FileReader;
 
 public class DataProviders {
 
-	@DataProvider
+	@DataProvider(parallel = true)
 	public Object[][] jsonDataProvider() throws IOException {
 		// Path to your JSON file
 		String filePath = ".\\testdata\\product.json";
